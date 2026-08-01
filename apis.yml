@@ -1,8 +1,18 @@
 aid: slate-auto
 name: Slate Auto
-description: Slate Auto is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Slate Auto is an American electric-vehicle manufacturer building a radically
+  simple, affordable, and customizable electric pickup truck. Designed in
+  California and Michigan, engineered in Michigan, and assembled in the Midwest,
+  the "Blank Slate" starts around $24,950 and offers roughly 205 miles of range,
+  with interchangeable body panels and 200+ accessories that let owners
+  reconfigure the vehicle over its life (including SUV and Fastback body styles).
+  Slate sells direct through a preorder/reservation model, rejects mandatory
+  feature packages and large touchscreens in favor of durability and owner
+  control, and offers fleet solutions. Backed by General Catalyst. As a consumer
+  automaker, Slate Auto publishes no public developer API, SDKs, or
+  developer portal at this time; this profile captures company identity for the
+  API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/slate-auto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +20,65 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://images.ctfassets.net/20dhmw20vttc/3ExGHgsfJNJ8d4yh0w5ocN/d2c0ed3e1738d6eed1d24e97d39a899d/Studio_60_Front_Three_Quarter_Truck__Driver_Side-HK-Fix.jpg
 tags:
 - Company
+- Electric Vehicles
+- Automotive
+- EV
+- Electric Truck
+- Manufacturing
+- Mobility
+- Fleet
+- Customization
+- Consumer
 apis: []
+common:
+- type: DomainSecurity
+  url: security/slate-auto-domain-security.yml
+- type: Website
+  url: https://www.slate.auto/
+- type: About
+  url: https://www.slate.auto/about
+- type: SignUp
+  url: https://www.slate.auto/reserve
+- type: TermsOfService
+  url: https://www.slate.auto/terms
+- type: PrivacyPolicy
+  url: https://www.slate.auto/privacy
+- type: Support
+  url: https://www.slate.auto/contact
+- type: Blog
+  url: https://www.slate.auto/news
+- type: Press
+  url: https://www.slate.auto/press
+- type: Fleet
+  url: https://www.slate.auto/fleet
+- type: Careers
+  url: https://www.slate.auto/careers
+- type: LinkedIn
+  url: https://linkedin.com/company/slateauto/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
